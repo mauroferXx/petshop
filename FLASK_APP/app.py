@@ -26,7 +26,7 @@ Migrate(app, db)
 # 6. ejecutamos el comando en la consola: python app.py o python3 app.py y revisamos nuestro navegador
 @app.route('/')
 def index():
-    return 'Hola desde gitpod'
+    return 'Hola desde gitpod x2 '
 
 # 7. Ruta para consultar todos los Usuarios
 @app.route('/usuarios', methods=['GET'])
